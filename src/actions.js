@@ -132,8 +132,12 @@ module.exports = {
 
 				headers.Priority = opt.priority
 
-				if (opt.tags) {
+				//if opt.tags is an array, join them into a string
+				if (Array.isArray(opt.tags)) {
 					headers.Tags = opt.tags.join(',')
+				}
+				else {
+					headers.Tags = opt.tags
 				}
 
 				if (opt.includeClick) {
