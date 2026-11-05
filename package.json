@@ -14,11 +14,11 @@
 		"url": "git+https://github.com/bitfocus/companion-module-binwiederhier-ntfy.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.8.0",
+		"@companion-module/base": "~1.15.1",
 		"eventsource": "^2.0.2"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^2.8.0",
+		"@companion-module/tools": "^2.9.0",
 		"prettier": "^3.2.5"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json",
